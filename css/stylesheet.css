@@ -1,5 +1,6 @@
 ﻿body {
     background-color: #f7f7f7;
+
 }
 div {
     display: block;
@@ -28,7 +29,7 @@ div {
             height: 90px;
             text-shadow: none;
             margin-left: 20%;
-            background-image: url(../images/x-coders.png);
+            background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/x-coders.png);
             background-size: cover;
         }
             #logo:hover {
@@ -47,7 +48,7 @@ div {
             margin-right: 15%;
         }
             #nakov-page-button {
-                background-image: url(../images/nakov-button.png);
+                background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/nakov-button.png);
                 background-size: cover;
                 display: inline-block;
                 width: 105px;
@@ -57,14 +58,14 @@ div {
                 margin-top: 30px;
             }
                 #nakov-page-button:hover {
-                    background-image: url(../images/nakov-button-underline.png);
+                    background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/nakov-button-underline.png);
                     background-size: cover;
                     display: inline-block;
                     width: 105px;
                     height: 60px;
                 }
             #petya-page-button {
-                background-image: url(../images/petya-button.png);
+                background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/petya-button.png);
                 background-size: cover;
                 display: inline-block;
                 width: 105px;
@@ -72,14 +73,14 @@ div {
                 margin-right: 20px;
             }
                 #petya-page-button:hover {
-                    background-image: url(../images/petya-button-underline.png);
+                    background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/petya-button-underline.png);
                     background-size: cover;
                     display: inline-block;
                     width: 105px;
                     height: 60px;
                 }
             #vlado-page-button {
-                background-image: url(../images/vlado-button.png);
+                background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/vlado-button.png);
                 background-size: cover;
                 display: inline-block;
                 width: 105px;
@@ -87,28 +88,28 @@ div {
                 margin-right: 20px;
             }
                 #vlado-page-button:hover {
-                    background-image: url(../images/vlado-button-underline.png);
+                    background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/vlado-button-underline.png);
                     background-size: cover;
                     display: inline-block;
                     width: 105px;
                     height: 60px;
                 }
             #teo-page-button {
-                background-image: url(../images/teo-button.png);
+                background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/teo-button.png);
                 background-size: cover;
                 display: inline-block;
                 width: 105px;
                 height: 60px;
             }
                 #teo-page-button:hover {
-                    background-image: url(../images/teo-button-underline.png);
+                    background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/teo-button-underline.png);
                     background-size: cover;
                     display: inline-block;
                     width: 105px;
                     height: 60px;
                 }
 #content {
-    background-image: url(../images/background-cyclop.PNG);
+    background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/background-cyclop.PNG);
     background-repeat: no-repeat;
     width: 100%;
     height: 609px;
@@ -122,7 +123,7 @@ div {
     }
         #greeting-text {
             display: inline-block;
-            background-image: url(../images/red-background-text-top.png);
+            background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/red-background-text-top.png);
             background-repeat: no-repeat; 
             background-size: cover;
             width: 430px;
@@ -133,7 +134,7 @@ div {
         }
             #enter-site-button {
                 display: inline-block;
-                background-image: url(../images/enter-website-button.png);
+                background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/enter-website-button.png);
                 background-repeat: no-repeat;
                 width: 201px;
                 height: 46px;
@@ -143,7 +144,7 @@ div {
                 margin-left: 120px;
             }
                 #enter-site-button:hover {
-                    background-image: url(../images/enter-website-button-hover.png);
+                    background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/enter-website-button-hover.png);
                 }
 #space-between-content-footer {
     background-color: #f7f7f7;
@@ -156,7 +157,6 @@ div {
     height: 100px;
 }
 #footer-container {
-    border: 2px dotted green;
     width: 70%;
     height: 152px;
     margin-left: auto;
