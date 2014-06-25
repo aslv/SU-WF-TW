@@ -1,164 +1,244 @@
-﻿body {
+﻿/*****************************************************GENERAL SETTINGS******************************************************/
+body {
+    font: 1em/150%;
+    font-family: 'Final Frontier Old Style', sans-serif;
+    color: #ed1c24;
     background-color: #f7f7f7;
-
 }
-div {
-    display: block;
+a {
+    text-decoration: none;
 }
-#header {
-    background-color: #f7f7f7;
-    width: 100%;
-    height: 100px;
-    margin: 0 auto;
-    
-}
-    #header-content {
-        max-width: 1280px;
-        width: 100%;
-        margin: 0px auto;
-        position: relative;
-        background: #404040;
-        color: #f7f7f7;
-        text-shadow: none;
-        font: normal 100%/1.5 "Arial", sans-serif;
-        -webkit-font-smoothing: antialised;
+    a:hover {
+        text-decoration: underline;
     }
-        #logo {
-            float: left;
-            width: 350px;
+h1 {
+    font-size: 4em;
+}
+span {
+    font-size: 2em;
+}
+li {
+    display: inline;
+    margin-left: 15px;
+    font-size: 3em;
+}
+
+/********************************************************STRUCTURE**********************************************************/
+#page-wrapper {
+    width: 960px;
+    margin: 20px auto;
+}
+    
+    /*HEADER AREA*/
+    #header-wrapper {
+        height: 100px;
+        margin-bottom: 10px;
+    }
+        #logo-container {
+            background: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/xcoders-logo-alternative.png);
+            background-repeat: no-repeat;
+            width: 305px;
             height: 90px;
-            text-shadow: none;
-            margin-left: 20%;
-            background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/x-coders.png);
-            background-size: cover;
+            float: left;
+            margin-top: 20px;
         }
-            #logo:hover {
+            #logo-container:hover {
                 -webkit-filter: grayscale(90%);
             }
-            #homepage-link {
+            #index-link {
                 display: block;
-                width: 350px;
-                height:90px;
-
+                width: 280px;
+                height: 80px;
             }
-        #navigation {
+        #navigation-container {
+            width: 500px;
             float: right;
-            width: 800px;
-            height: 90px;
-            margin-right: 15%;
+            margin-top: 50px;
         }
-            #nakov-page-button {
-                background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/nakov-button.png);
-                background-size: cover;
+            .menu-buttons {
                 display: inline-block;
-                width: 105px;
-                height: 60px;
-                margin-left: 35%;
-                margin-right: 20px;
-                margin-top: 30px;
+                width: 110px;
+                height: 55px;
+                margin-left: 15px;
+                background-repeat: no-repeat;
+            }
+            #nakov-page-button {
+                background: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/nakov-button.png);
             }
                 #nakov-page-button:hover {
-                    background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/nakov-button-underline.png);
-                    background-size: cover;
-                    display: inline-block;
-                    width: 105px;
-                    height: 60px;
+                    background: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/nakov-button-underline.png);
+                }
+                #nakov-page-link {
+                    display: block;
+                    width: 110px;
+                    height: 55px;
                 }
             #petya-page-button {
-                background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/petya-button.png);
-                background-size: cover;
-                display: inline-block;
-                width: 105px;
-                height: 60px;
-                margin-right: 20px;
+                background: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/petya-button.png);
             }
                 #petya-page-button:hover {
-                    background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/petya-button-underline.png);
-                    background-size: cover;
-                    display: inline-block;
-                    width: 105px;
-                    height: 60px;
+                    background: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/petya-button-underline.png);
+                }
+                #petya-page-link {
+                    display: block;
+                    width: 110px;
+                    height: 55px;
                 }
             #vlado-page-button {
-                background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/vlado-button.png);
-                background-size: cover;
-                display: inline-block;
-                width: 105px;
-                height: 60px;
-                margin-right: 20px;
+                background: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/vlado-button.png);
             }
                 #vlado-page-button:hover {
-                    background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/vlado-button-underline.png);
-                    background-size: cover;
-                    display: inline-block;
-                    width: 105px;
-                    height: 60px;
+                    background: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/vlado-button-underline.png);
+                }
+                #vlado-page-link {
+                    display: block;
+                    width: 110px;
+                    height: 55px;
                 }
             #teo-page-button {
-                background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/teo-button.png);
-                background-size: cover;
-                display: inline-block;
-                width: 105px;
-                height: 60px;
+                background: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/teo-button.png);
+                width: 90px;
             }
                 #teo-page-button:hover {
-                    background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/teo-button-underline.png);
-                    background-size: cover;
-                    display: inline-block;
-                    width: 105px;
-                    height: 60px;
+                    background: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/teo-button-underline.png);
                 }
-#content {
-    background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/background-cyclop.PNG);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 609px;
-}
-    #content-container {
-        background-color: #f3d527;
-        width: 420px;
-        height: 300px;
-        margin-left: auto;
-        margin-right: auto;
+                #teo-page-link {
+                    display: block;
+                    width: 110px;
+                    height: 55px;
+                }
+    
+    /*MAIN CONTENT AREA*/
+    #content-wrapper {
+        background: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/index-background.png);
+        background-repeat: no-repeat;
+        height: 600px;
+        margin-bottom: 10px;
+        background-color: #f2d426;
     }
-        #greeting-text {
+        #enter-site-button {
             display: inline-block;
-            background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/red-background-text-top.png);
-            background-repeat: no-repeat; 
-            background-size: cover;
-            width: 430px;
-            height: 300px;
-            margin-left: auto;
-            margin-right: auto;
-            margin-left: -10px;
+            background: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/enter-website-button.png);
+            background-repeat: no-repeat;
+            margin-left: 380px;
+            margin-top: 200px;
+            width: 210px;
+            height: 46px;
         }
-            #enter-site-button {
-                display: inline-block;
-                background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/enter-website-button.png);
-                background-repeat: no-repeat;
-                width: 201px;
-                height: 46px;
-                margin-left: auto;
-                margin-left: auto;
-                margin-top: 230px;
-                margin-left: 120px;
+            #enter-site-button:hover {
+                background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/enter-website-button-hover.png);
             }
-                #enter-site-button:hover {
-                    background-image: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/enter-website-button-hover.png);
+            #enter-site-button-link {
+                display: block;
+                width: 210px;
+                height: 46px;
+            }
+
+    #character-content-wrapper {
+        background: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/character-background-frame.png);
+        background-repeat: no-repeat;
+        height: 600px;
+        margin-bottom: 10px;
+        background-color: #f2d426;
+    }
+            #left-container {
+                display: inline-block;
+                background: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/char-image-container.png);
+                background-repeat: no-repeat;
+                width: 550px;
+                height: 560px;
+                float: left;
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+            #right-container {
+                display: inline-block;
+                width: 350px;
+                height: 560px;
+                float: right;
+                margin-top: 20px;
+                margin-right: 20px;
+            }
+                .character-name-container {
+                    display: inline-block;
+                    width: 330px;
+                    height: 50px;
+                    margin-top: 5px;
+                    margin-left: 16px;
+                    margin-right: 5px;
+                    
                 }
-#space-between-content-footer {
-    background-color: #f7f7f7;
-    width: 100%;
-    height: 70px;
-}
-#footer {
-    background-color: #ED1C24;
-    width: 100%;
-    height: 100px;
-}
-#footer-container {
-    width: 70%;
-    height: 152px;
-    margin-left: auto;
-    margin-right: auto;
-}
+                    #nakov-name-field {
+                        background: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/nakov-red-name-box.png);
+                        background-repeat: no-repeat;
+                    }
+                    #petya-name-field {
+                        background: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/petya-red-name-box.png);
+                        background-repeat: no-repeat;
+                    }
+                    #vlado-name-field {
+                        background: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/vlado-red-name-box.png);
+                        background-repeat: no-repeat;
+                    }
+                    #teo-name-field {
+                        background: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/teo-red-name-box.png);
+                        background-repeat: no-repeat;
+                    }
+                #characteristics-container {
+                    background: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/character-info-box.png);
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                    width: 330px;
+                    height: 490px;
+                    margin-top: 5px;
+                    margin-left: 6px;
+                    margin-right: 5px;
+                }
+
+    #about-us-information-container {
+        background: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/about-us.png);
+        background-repeat: no-repeat;
+        height: 600px;
+        margin-bottom: 10px;
+        background-color: #f2d426;
+    }
+    
+    /*FOOTER AREA*/ 
+    #footer-wrapper {
+        height: 80px;
+        background-color: #ed1c24;
+    }
+        #about-us-button {
+            background: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/fin-fang-foom-button.png);
+            background-repeat: no-repeat;
+            display: inline-block;
+            width: 240px;
+            height: 40px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+            #about-us-button:hover {
+                background: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/fin-fang-foom-button-underline.png);
+            }
+            #about-us-page-link {
+                display: block;
+                width: 240px;
+                height: 40px;
+            }
+        #softuni-button {
+            background: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/softuni-button.png);
+            background-repeat: no-repeat;
+            display: inline-block;
+            width: 90px;
+            height: 40px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+            #softuni-button:hover {
+                background: url(https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/softuni-button-underline.png);
+            }
+            #softuni-page-link {
+                display: block;
+                width: 240px;
+                height: 40px;
+            }
