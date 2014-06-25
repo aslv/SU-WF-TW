@@ -1,0 +1,19 @@
+Name: Vlado "Magnus" Eisenhardt also know as Magneto
+Description: The team's longtime enemy was briefly "redeemed" and appointed as one of the leader of the X-Programmers and their junior team. 
+Became one of the headmasters of the Professor N Institute. He felt uncertain and lost his powers but regained them through the High Evolutionary's experimentation.
+Powers: Generates and controls magnetic fields, strings fields, forms and input fields, can manipulating metal, 
+any kind of code,  flight, force fields, electrical bolts, and electromagnetic radiation. 
+Recently he's trying to get into the matter of video and audio manipulation. 
+Level: Pro
+Experience: Hight
+Next Level: Trying to conquer the throne of Charles Xavier Nakov
+Strenght: 45
+Magic: 80
+Dexterity: 80
+Vitality: 100
+Gold: Enough
+Armor Class: while (teaching) do Class.invulnerable
+Damage: Not recommended to matched up against him
+Resist to students haters attacks: Goood
+Ultimate: Quite big smile 
+Weakness: Fear from blackboards
