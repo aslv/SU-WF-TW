@@ -63,6 +63,7 @@ li {
             }
             #nakov-page-button {
                 background: url('https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/nakov-button.png');
+                visibility: visible;
             }
                 #nakov-page-button:hover {
                     background: url('https://raw.githubusercontent.com/aslv/SU-WF-TW/master/img/nakov-button-underline.png');
